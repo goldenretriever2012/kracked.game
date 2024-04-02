@@ -1,0 +1,11 @@
+
+    /* CSS for rarity-labeled divs */
+    #commonBox,
+    #uncommonBox,
+    #rareBox,
+    #epicBox {
+        overflow: auto;
+        /* Adjust the height to accommodate the content */
+        height: 160px; 
+    }
+
