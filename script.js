@@ -3,29 +3,29 @@
     const ctx = canvas.getContext('2d');
 
     const phrases = [
-        "Lorem ipsum",
-        "Dolor sit amet",
-        "Consectetur adipiscing elit",
-        "Sed do eiusmod",
-        "Tempor incididunt",
-        "Ut labore et dolore",
-        "Magna aliqua",
-        "Ut enim ad minim veniam",
-        "Quis nostrud exercitation",
-        "Ullamco laboris nisi",
-        "Ut aliquip ex ea commodo consequat",
-        "Duis aute irure dolor",
-        "In reprehenderit in voluptate",
-        "Velit esse cillum dolore",
-        "Eu fugiat nulla pariatur",
-        "Excepteur sint occaecat",
-        "Cupidatat non proident",
-        "Sunt in culpa qui officia",
-        "Deserunt mollit anim id est laborum",
-        "Omnis iste natus error",
-        "Sit voluptatem accusantium",
-        "Doloremque laudantium",
-        "Totam rem aperiam",
+        "Dead Maggot",
+        "Nazi Branded Horoscope Script",
+        "Line Drawing of Scale",
+        "White House Blueprint",
+        "1532 Cigars",
+        "Bitmap of Stripmine",
+        "Original Emerald Shitcoin",
+        "lol superman (original upload)",
+        "Illegal Paris Catacombs Tour",
+        "Dismembered Dentist Photograph",
+        "Henry Wrinkler",
+        "Brown Wrestling Bag",
+        "Benjamin Blumchen Cassete Tape",
+        "The Favorite Song",
+        "Original Garageband",
+        "Frozen German Shepard Shit",
+        "Down Syndrome Cat",
+        "Expired Ibuprofen",
+        "Crippled Fat Person",
+        "Single Beat Up Balenciaga Track 2",
+        "Metallica T-Shirt Worn By Fascist",
+        "Frog",
+        "Faulty Airbrush",
         "Eaque ipsa quae ab illo",
         "Inventore veritatis et quasi",
         "Architecto beatae vitae dicta",
@@ -89,3 +89,30 @@
     });
 
     setInterval(draw, 10);
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Function to play a random sound
+        function playRandomSound() {
+            // Generate a random number between 1 and 6
+            const randomIndex = Math.floor(Math.random() * 6) + 1;
+            
+            // Construct the file name based on the random number
+            const fileName = `sound${randomIndex}.wav`;
+    
+            // Create an audio element
+            const audio = new Audio();
+            audio.src = `SFX/${fileName}`;
+    
+            // Play the selected sound
+            audio.play();
+        }
+    
+        // Add click event listener to the whole page
+        document.body.addEventListener("click", function() {
+            // Call the function to play a random sound
+            playRandomSound();
+        });
+    });
+    
+    
+    

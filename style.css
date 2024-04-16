@@ -8,3 +8,21 @@
         /* Adjust the height to accommodate the content */
         height: 160px; 
     }
+
+    .start {
+        font-size: 24px;
+    }
+    
+    /* Styles specific to index2.html */
+    body.index2-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .centered-content {
+        text-align: center;
+        width: 100%;
+    }

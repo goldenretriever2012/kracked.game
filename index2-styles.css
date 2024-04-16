@@ -1,0 +1,28 @@
+/* Styles specific to index2.html */
+body.index2-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.centered-content {
+    text-align: center;
+    width: 100%;
+}
+
+.box {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.start {
+    font-size: px;
+}
+
+.kracked.game {
+    font-size: 24px;
+}

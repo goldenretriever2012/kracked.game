@@ -2,40 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href=style.css rel='stylesheet'>
-
+    <title>Index 2</title>
+    <link rel="stylesheet" href="index2-styles.css">
 </head>
-<body>
-    <div style="display: flex;">
-        <div style="display: flex; flex-direction: column;">
-            <div style="width: 200px; height: 28px; border: 1px solid black; display: flex; align-items: top; justify-content: flex-start; font-size: 24px;">kracked.game</div>
-            <div id="commonBox" style="width: 200px; height: 160px; border: 1px solid black; overflow: auto;">
-                <p id="commonText" style="color: red; text-align: left; font-size: 15px;">Common</p>
-            </div>
-            <div id="uncommonBox" style="width: 200px; height: 160px; border: 1px solid black; overflow: auto;">
-                <p id="uncommonText" style="color: green; text-align: left; font-size: 15px;">Uncommon</p>
-            </div>
-            <div id="rareBox" style="width: 200px; height: 160px; border: 1px solid #000000; overflow: auto;">
-                <p id="rareText" style="color: blue; text-align: left; font-size: 15px;">Rare</p>
-            </div>
-            <div id="epicBox" style="width: 200px; height: 160px; border: 1px solid black; overflow: auto;">
-                <p id="epicText" style="color: purple; text-align: left; font-size: 15px;">Epic</p>
-            </div>
-            <div id="selectedText" style="width: 200px; border: 1px solid black; margin-top: 10px; padding: 5px; overflow-y: auto;"></div>
-        </div>
-        <div style="display: flex; flex-direction: column; margin-left: 0px;">
-            <div style="width: 1070px; height: 676px; border: 1px solid black;">
-                <canvas id="myCanvas" width="1070" height="676"></canvas>
-            </div>
-        </div>
+<body class="index2-page">
+
+<!-- Content to be centered -->
+<div class="centered-content">
+    <div class="box">
+        <p>kracked.game</p>
     </div>
-    
-
-        <script src="script.js"></script>
-
+    <!-- Link to index.html -->
+    <div class="box">
+        <a href="../index.html" class="start">Start</a>
+    </div>
+</div>
 
 </body>
 </html>
