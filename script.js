@@ -26,12 +26,12 @@
         "Metallica T-Shirt Worn By Fascist",
         "Frog",
         "Faulty Airbrush",
-        "Eaque ipsa quae ab illo",
-        "Inventore veritatis et quasi",
-        "Architecto beatae vitae dicta",
-        "Sunt explicabo",
-        "Nemo enim ipsam voluptatem",
-        "Quia voluptas sit aspernatur"
+        "Dead Space Disc",
+        "Ziploc Bag of Used Needles",
+        "Bloody Cracked Helmet",
+        "Rusty Piercing",
+        "iPod with Shambalah 2011",
+        "Faulty Android Charger"
     ];
 
     const colors = ["red", "blue", "purple", "yellow", "green", "black", "white"];
