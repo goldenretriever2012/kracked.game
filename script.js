@@ -26,7 +26,7 @@
         "Metallica T-Shirt Worn By Fascist",
         "Frog",
         "Faulty Airbrush",
-        "Dead Space Disc",
+        "Original Release Dead Space Disc",
         "Ziploc Bag of Used Needles",
         "Bloody Cracked Helmet",
         "Rusty Piercing",
